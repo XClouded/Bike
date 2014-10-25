@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/titlebar_height"
+                    >
+        	<Button android:layout_width="60dp"
+        	        android:layout_height="40dp"
+        	        android:layout_marginLeft="@dimen/normal_mp"
+        	        android:layout_alignParentLeft="true"
+        	        android:layout_centerVertical="true"
+        	        android:text="@string/refresh"
+        	        android:textSize="@dimen/normal_font_size"
+        	        android:textColor="@color/black"/>
+        	
+        	<LinearLayout android:layout_width="wrap_content"
+        	              android:layout_height="wrap_content"
+        	              android:orientation="horizontal"
+        	              android:layout_centerInParent="true"
+        	              android:gravity="center">
+        	    <ImageView android:layout_width="wrap_content"
+        	               android:layout_height="wrap_content"
+        	               android:src="@drawable/logo"
+        	               android:contentDescription="@string/app_name"/>
+        	    <TextView android:layout_width="wrap_content"
+        	              android:layout_height="wrap_content"
+        	              android:layout_marginLeft="@dimen/tiny_mp"
+        	              android:text="@string/bike_to_travel"
+        	              android:textColor="@color/black"
+        	              android:textSize="30sp"/>
+        	</LinearLayout>
+        	
+        	<Button android:layout_width="60dp"
+        	        android:layout_height="40dp"
+        	         android:layout_marginRight="@dimen/normal_mp"
+        	        android:layout_alignParentRight="true"
+        	        android:layout_centerVertical="true"
+        	        android:text="@string/add"
+        	        android:textSize="@dimen/normal_font_size"
+        	        android:textColor="@color/black"
+        	        />
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/divider_line_height"
+          android:background="@color/divider_line_color"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/normal_mp"
+                  android:orientation="vertical">
+           <View android:layout_width="match_parent"
+                 android:layout_height="@dimen/divider_line_height"
+                 android:background="@color/divider_line_color"/>
+           <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:smoothScrollbar="true"
+              android:choiceMode="singleChoice"
+              android:alwaysDrawnWithCache="true"
+              android:divider="@color/divider_line_color"
+              android:dividerHeight="@dimen/divider_line_height"
+              android:id="@id/post_category_list"></ListView>
+            <View android:layout_width="match_parent"
+                 android:layout_height="@dimen/divider_line_height"
+                 android:background="@color/divider_line_color"/>
+    </LinearLayout>
+ 
+    
+</LinearLayout>

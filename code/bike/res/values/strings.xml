@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">骑行天下</string>
+    <!-- Http数据获取 -->
+    <string name="string_http_data_nonet">无法连接到网络\n请稍后再试</string>
+    <string name="string_http_data_busy">网络不稳定\n请稍后再试</string>
+    <string name="string_http_data_connent_timeout">连接超时\n请稍后再试</string>
+    <string name="string_http_data_user_nocheck">用户验证失败\n请重新登录</string>
+    <string name="string_http_service_error">服务器繁忙\n请稍后再试</string>
+    <string name="string_http_data_url_error">服务器地址错误</string>
+    <string name="string_http_data_fail">数据解析失败\n请检查当前网络状态</string>
+    <string name="string_send_data_fail">评论发送失败</string>
+    <string name="string_url_illeagle">网络链接地址不合法</string>
+    <string name="string_net_tips_text">无法连接到网络，请检查网络设置</string>
+    <string name="string_net_tips_goto_offline_text">进入离线阅读，网络不好照样读。</string>
+    <string name="media_player_failed"> 暂时无法播放，请稍后再试</string>
+
+    <!-- 登录 -->
+    <string name="username">用户名：</string>
+    <string name="passwd">密码：</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- 测试activity -->
+    <string name="ps_btn">设置</string>
+    <string name="lg_text">骑行天下</string>
+    <string name="add_btn">+</string>
+    
+    <!-- 底部栏 -->
+    <string name="item_photo">美图</string>
+	<string name="item_forum">论坛</string>
+    <string name="item_transfer">交易</string>
+	<string name="item_find">找车</string>
+	<string name="item_setting">设置</string>
+	<string name="bike_to_travel">骑行天下</string>
+	<string name="refresh">刷新</string>
+	<string name="add">+</string>
+	<string name="forum_about_bike">车系论坛</string>
+    <string name="forum_about_bike_desc">为你的爱车找到队伍</string>
+    <string name="close">关闭</string>
+    <string name="meilida">美利达论坛</string>
+</resources>

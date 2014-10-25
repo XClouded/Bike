@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaxView">
+        <attr name="max_width" format="dimension" />
+        <attr name="max_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefreshListView">
+        <attr name="has_header_list" format="boolean" />
+        <attr name="has_footer_list" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="PullRefreshIphoneTreeView">
+        <attr name="has_refresh_header" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="PullToRefreshFrameLayout">
+        <attr name="has_header" format="boolean" />
+        <attr name="has_footer" format="boolean" />
+        <attr name="has_shadow" format="boolean" />
+        <attr name="has_divider" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TitleButton">
+        <attr name="src" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CommentBar">
+        <attr name="comment_bar_title_bg" format="integer"></attr>
+        <attr name="comment_bar_comment_num_color" format="integer"></attr>
+        <attr name="comment_bar_comment_tips_color" format="integer"></attr>
+        <attr name="comment_arraw_down_bg" format="integer"></attr>
+        <attr name="comment_arraw_up_bg" format="integer"></attr>
+        <attr name="comment_bar_refresh_comment_src" format="integer"></attr>
+        <attr name="comment_bar_write_comment_src" format="integer"></attr>
+        <attr name="comment_bar_share_src" format="integer"></attr>
+        <attr name="comment_bar_has_download_btn" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="ShareButton">
+        <attr name="image_icon" format="integer"></attr>
+        <attr name="state" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="WritingCommentBar">
+        <attr name="is_black" format="boolean"></attr>
+        <attr name="has_download_btn" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NetTipsBar">
+        <attr name="can_change" format="boolean"></attr>
+    </declare-styleable>
+    
+    <attr name="switchStyle" format="reference" />
+    <declare-styleable name="Switch">
+        <attr name="textLeft" format="string" />
+        <attr name="textRight" format="string" />
+        <attr name="switchMinWidth" format="dimension" />
+        <attr name="switchPadding" format="dimension" />
+        <attr name="colorUnChecked" format="color" />
+        <attr name="colorChecked" format="color" />
+        <attr name="backgroundDrawable" format="reference" />
+        <attr name="switchDrawable" format="dimension" />
+        <attr name="switchRightDrawable" format="dimension" />
+        <attr name="switchLeftDrawable" format="dimension" />
+        <attr name="innerPadding" format="dimension" />
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>  
+	<declare-styleable name="CommentListView">
+        <attr name="commentType" format="integer" />
+    </declare-styleable>
+</resources>

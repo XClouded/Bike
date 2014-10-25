@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="mycomment">
+	        <item>我的评论</item>
+	　　        <item>提到我的</item>	　　       
+	　　        <item>留言薄</item>
+　　    </string-array>
+	<string-array name="more_actions">
+	　　        <item>删除留言对话</item>
+	　　        <item>清除所有留言</item>
+　　    </string-array>
+	<string-array name="chat_msg_actions">
+	　　        <item>复制</item>
+　　    </string-array>
+	<string-array name="chat_msg_send_actions">
+	　　        <item>粘贴</item>
+　　    </string-array>
+	
+</resources>

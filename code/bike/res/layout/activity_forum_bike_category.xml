@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <LinearLayout android:layout_width="250dp"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentRight="true"
+                  android:background="@color/white"
+                  android:orientation="vertical">
+	          <RelativeLayout android:layout_width="match_parent"
+	                    android:layout_height="@dimen/normal_height"
+	                    >
+	        <TextView android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:text="@string/forum_about_bike"
+	                  android:textSize="@dimen/normal_font_size"
+	                  android:textColor="@color/black"
+	                  android:layout_centerInParent="true"/>
+	        <TextView android:layout_width="wrap_content"
+	                  android:layout_height="wrap_content"
+	                  android:layout_marginRight="@dimen/normal_mp"
+	                  android:layout_centerVertical="true"
+	                  android:layout_alignParentRight="true"
+	                  android:text="@string/close"
+	                  android:textSize="@dimen/normal_font_size"
+	                  android:textColor="@color/black"
+	                  android:id="@id/close"/>
+	    </RelativeLayout>
+	    <View android:layout_width="match_parent"
+	          android:layout_height="@dimen/divider_line_height"
+	          android:background="@color/divider_line_color"/>
+	    
+	    <LinearLayout android:layout_width="match_parent"
+	                  android:layout_height="wrap_content"
+	                  android:layout_marginTop="@dimen/normal_mp"
+	                  android:orientation="vertical">
+	        <View android:layout_width="match_parent"
+	              android:layout_height="@dimen/divider_line_height"
+	              android:background="@color/divider_line_color"/>
+	           <ListView android:layout_width="match_parent"
+			             android:layout_height="wrap_content"
+			             android:id="@id/forum_bike_category_list"
+			             android:dividerHeight="@dimen/divider_line_height"
+			             android:divider="@color/divider_line_color" />
+	        <View android:layout_width="match_parent"
+	              android:layout_height="@dimen/divider_line_height"
+	              android:background="@color/divider_line_color"/>
+	    </LinearLayout>
+    </LinearLayout>
+    
+  
+
+</RelativeLayout>

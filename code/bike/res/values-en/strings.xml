@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_version">腾讯新闻android版 V2.8.0</string>
+    <string name="app_name">Tencent news</string>
+    <!-- Http数据获取 -->
+    <string name="string_http_data_nonet">无法连接到网络\n请稍后再试</string>
+    <string name="string_http_data_busy">网络不稳定\n请稍后再试</string>
+    <string name="string_http_data_connent_timeout">连接超时\n请稍后再试</string>
+    <string name="string_http_data_user_nocheck">用户验证失败\n请重新登录</string>
+    <string name="string_http_service_error">服务器繁忙\n请稍后再试</string>
+    <string name="string_http_data_url_error">服务器地址错误</string>
+    <string name="string_http_data_fail">数据解析失败\n请检查当前网络状态</string>
+    <string name="string_send_data_fail">评论发送失败</string>
+    <string name="string_url_illeagle">网络链接地址不合法</string>
+    <string name="string_net_tips_text">无法连接到网络，请检查网络设置</string>
+    <string name="string_net_tips_goto_offline_text">进入离线阅读，网络不好照样读。</string>
+    <string name="media_player_failed"> 暂时无法播放，请稍后再试</string>
+
+    <!-- 格式化时间 -->
+    <string name="date_format_just_ago">刚刚</string>
+    <string name="date_format_two_day_ago">前天 </string>
+    <string name="date_format_yesterday">昨天 </string>
+    <string name="date_format_today">今天 </string>
+    <string name="date_format_minute_ago">分钟前</string>
+    <string name="date_format_hour_ago">小时前</string>
+
+    <!-- 图文直播时间 -->
+    <string name="image_text_live_date_format_day">天前 </string>
+    <string name="image_text_live_date_format_hour">小时前 </string>
+    <string name="image_text_live_date_format_minute">分钟前</string>
+    <string name="image_text_live_date_format_second">秒前</string>
+    <string name="image_text_live_date_format_now">刚刚</string>
+
+    <!-- 下拉刷新listView -->
+    <string name="pull_to_refresh_pull_label">向下拖动可以刷新</string>
+    <string name="string_update_time_first">上次更新于 </string>
+    <string name="string_update_time">最后更新于：%s</string>
+    <string name="string_refreshing">载入中…</string>
+    <string name="release_to_refresh_pull_label">松开立即刷新</string>
+    <string name="loading_error">点击加载</string>
+    <string name="file_not_exists">安装文件不存在</string>
+    <string name="loading_wait">正在获取更多…</string>
+    <string name="click_for_loading_more">点击加载更多</string>
+    <string name="all_has_show">已显示全部内容</string>
+
+    <!-- 列表 -->
+    <string name="string_addmore">加载更多</string>
+    <string name="string_adding">加载中…</string>
+    <string name="list_empty">暂无数据</string>
+    <string name="list_click">点击屏幕,重新加载</string>
+    <string name="list_retry">重新加载</string>
+    <string name="list_error">访问出错</string>
+    <string name="way">通过%s</string>
+    <string name="video_loading">视频加载中…</string>
+    <string name="list_title">标题</string>
+    <string name="list_content">正文</string>
+    <string name="list_comment">评论</string>
+
+    <!-- navigation bar -->
+    <string name="tencent_news">新闻</string>
+    <string name="tencent_photo">图片</string>
+    <string name="tencent_video">视频</string>
+    <string name="tencent_topic">话题</string>
+    <string name="tencent_rss">订阅</string>
+
+    <!-- 标题文本 -->
+    <string name="title_news">腾讯新闻</string>
+    <string name="title_photo">精选图片</string>
+    <string name="title_video">热门视频</string>
+    <string name="title_topic">今日话题</string>
+    <string name="setting_title">设置</string>
+    <string name="offlinedownload_title">离线阅读</string>
+    <string name="mymsg">我的消息</string>
+    <string name="mycomment">我的评论</string>
+    <string name="my_favorites">我的收藏</string>
+    <string name="quit_title">退出</string>
+    <string name="share_title">分享</string>
+    <string name="account">个人帐号</string>
+    <string name="login">登录</string>
+    <string name="default_user">腾讯新闻用户</string>
+    <string name="login_desc">登录后可发表评论，与微博好友分享新闻</string>
+    <string name="push_open">开启或关闭新闻推送，当前状态：开启</string>
+    <string name="push_close">开启或关闭新闻推送，当前状态：关闭</string>
+    <string name="auto_load">列表滑动到最后一条时[自动]加载更多新闻</string>
+    <string name="click_load">列表滑动到最后一条时[点击]加载更多新闻</string>
+    <string name="word_size_s">调整新闻正文文字大小，当前为：小</string>
+    <string name="word_size_m">调整新闻正文文字大小，当前为：中</string>
+    <string name="word_size_b">调整新闻正文文字大小，当前为：大</string>
+    <string name="word_size_xb">调整新闻正文文字大小，当前为：特大</string>
+    <string name="dialog_word_title">字号选择</string>
+    <string name="dialog_title">提示</string>
+    <string name="dialog_clean_finish">清理完成</string>
+    <string name="dialog_clean_success">腾讯新闻：缓存清理成功！</string>
+    <string name="dialog_clean_ing">腾讯新闻：正在清除缓存，请稍候…</string>
+    <string name="dialog_clean_noneed">当前不用清理</string>
+    <string name="dialog_clean_info">缓存文件可以用来帮您节省流量，但较大时会占用较多磁盘空间。\n确定开始清理吗?</string>
+    <string name="dialog_clean_start">开始</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="share_dialog_cancel">取　消</string>
+    <string name="share_dialog_offline_cancel">稍后再下</string>
+    <string name="dialog_are_you_sure_logout">您确定注销登录吗?</string>
+    <string name="dialog_logout_success">注销成功</string>
+
+    <!--
+    <string name="capital_on">开</string>
+    <string name="capital_off">关</string>
+    -->
+    <string name="img_txt_live">图文直播</string>
+    <string name="about">关于</string>
+    <string name="offline">离线阅读</string>
+    <string name="app_recomm">应用推荐</string>
+    <string name="setting_word_size">文字大小</string>
+    <string name="setting_word_size_desc">调整您想要的文字大小</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_clear_cache_desc">清除缓存的临时文件</string>
+    <string name="setting_app_info">软件信息</string>
+    <string name="setting_sugg">意见反馈</string>
+    <string name="logout">注销</string>
+    <string name="setting_set">系统设置</string>
+    <string name="setting_push">新闻推送</string>
+    <string name="setting_push_desc">开启或关闭新闻推送,当前状态:开启</string>
+    <string name="setting_autoload">自动加载</string>
+    <string name="setting_autoload_desc">列表滑动到最后一条时[自动]加载更多新闻</string>
+    <!-- night mode -->
+    <string name="theme_mode_title">日间模式</string>
+    <string name="night_theme_mode_title">夜间模式</string>
+    <!-- text mode -->
+    <string name="setting_photo_mode_title">图片模式</string>
+    <string name="setting_text_mode_title">文字模式</string>
+    <string name="setting_text_mode_title_extra">（省流量）</string>
+    <string name="setting_text_mode_desciption_open">开启文字模式，帮助节省流量，当前状态：开启</string>
+    <string name="setting_text_mode_desciption_close">开启文字模式，帮助节省流量，当前状态：关闭</string>
+    <!-- text mode -->
+    <string name="login_input_account">微博帐号/QQ帐号/邮箱地址</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_change_pic">看不清,换一张</string>
+    <string name="login_verification_code_image">验证码</string>
+    <string name="sure">确定</string>
+    <string name="title_special_news">腾讯专题</string>
+    <string name="writing_hint">说两句,转一下</string>
+    <string name="share_tx_weibo">同时转播到腾讯微博</string>
+    <string name="last">还剩</string>
+    <string name="how_many_words">字</string>
+    <string name="send">发表</string>
+    <string name="i_am_longly">沙发,很寂寞啊…</string>
+    <string name="clear_cache_ing">正在清除缓存</string>
+    <string name="sina_outh_title">新浪微博</string>
+    <string name="share_massage_submit_txt">发送</string>
+    <!-- check update -->
+    <string name="dialog_check_title">发现最新版本</string>
+    <string name="dialog_start_update">立即更新</string>
+    <string name="dialog_ignore_update">忽略更新</string>
+    <string name="dialog_newest_version">已经是最新版本</string>
+    <string name="setting_check_update_title">检查更新</string>
+    <string name="setting_check_update_title_new">更新版本</string>
+    <string name="setting_check_update_desc">有新版啦，快来更新吧！</string>
+
+    <!-- 设置  我的帐号 -->
+    <string name="my_account">帐号管理</string>
+    <string name="login_tencent_news">登录腾讯新闻</string>
+    <string name="logout_tencent_news">注销腾讯新闻</string>
+    <string name="are_you_sure_logout_tencent_news">您确定注销腾讯新闻吗？</string>
+    <string name="login_weixin">登录微信朋友圈</string>
+    <string name="logout_weixin">注销微信朋友圈</string>
+    <string name="are_you_sure_logout_weixin">您确定注销微信朋友圈吗？</string>
+    <string name="login_tencent_weibo">登录腾讯微博</string>
+    <string name="login_sina_weibo">登录新浪微博</string>
+    <string name="logout_sina_weibo">注销新浪微博</string>
+    <string name="are_you_sure_logout_sina_weibo">您确定注销新浪微博吗？</string>
+    <string name="not_login">未登录</string>
+    <string name="logged">已登录</string>
+    <string name="account_management">帐号管理</string>
+
+    <!-- 视频播放 -->
+    <string name="VideoView_error_title">视频问题</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">此视频无法有效分流到本设备.</string>
+    <string name="VideoView_error_text_unknown">对不起，该视频  <!-- 格式化时间 -->
+    <string name="date_format_just_ago">刚刚</string>
+    <string name="date_format_two_day_ago">前天 </string>
+    <string name="date_format_yesterday">昨天 </string>
+    <string name="date_format_today">今天 </string>
+    <string name="date_format_minute_ago">分钟前</string>
+    <string name="date_format_hour_ago">小时前</string>
+
+    <!-- 图文直播时间 -->
+    <string name="image_text_live_date_format_day">天前 </string>
+    <string name="image_text_live_date_format_hour">小时前 </string>
+    <string name="image_text_live_date_format_minute">分钟前</string>
+    <string name="image_text_live_date_format_second">秒前</string>
+    <string name="image_text_live_date_format_now">刚刚</string>
+
+    <!-- 下拉刷新listView -->
+    <string name="pull_to_refresh_pull_label">向下拖动可以刷新</string>
+    <string name="string_update_time_first">上次更新于 </string>
+    <string name="string_update_time">最后更新于：%s</string>
+    <string name="string_refreshing">载入中…</string>
+    <string name="release_to_refresh_pull_label">松开立即刷新</string>
+    <string name="loading_error">点击加载</string>
+    <string name="file_not_exists">安装文件不存在</string>
+    <string name="loading_wait">正在获取更多…</string>
+    <string name="click_for_loading_more">点击加载更多</string>
+    <string name="all_has_show">已显示全部内容</string>
+
+    <!-- 列表 -->
+    <string name="string_addmore">加载更多</string>
+    <string name="string_adding">加载中…</string>
+    <string name="list_empty">暂无数据</string>
+    <string name="list_click">点击屏幕,重新加载</string>
+    <string name="list_retry">重新加载</string>
+    <string name="list_error">访问出错</string>
+    <string name="way">通过%s</string>
+    <string name="video_loading">视频加载中…</string>
+    <string name="list_title">标题</string>
+    <string name="list_content">正文</string>
+    <string name="list_comment">评论</string>
+
+    <!-- navigation bar -->
+    <string name="tencent_news">新闻</string>
+    <string name="tencent_photo">图片</string>
+    <string name="tencent_video">视频</string>
+    <string name="tencent_topic">话题</string>
+    <string name="tencent_rss">订阅</string>
+
+    <!-- 标题文本 -->
+    <string name="title_news">腾讯新闻</string>
+    <string name="title_photo">精选图片</string>
+    <string name="title_video">热门视频</string>
+    <string name="title_topic">今日话题</string>
+    <string name="setting_title">设置</string>
+    <string name="offlinedownload_title">离线阅读</string>
+    <string name="mymsg">我的消息</string>
+    <string name="mycomment">我的评论</string>
+    <string name="my_favorites">我的收藏</string>
+    <string name="quit_title">退出</string>
+    <string name="share_title">分享</string>
+    <string name="account">个人帐号</string>
+    <string name="login">登录</string>
+    <string name="default_user">腾讯新闻用户</string>
+    <string name="login_desc">登录后可发表评论，与微博好友分享新闻</string>
+    <string name="push_open">开启或关闭新闻推送，当前状态：开启</string>
+    <string name="push_close">开启或关闭新闻推送，当前状态：关闭</string>
+    <string name="auto_load">列表滑动到最后一条时[自动]加载更多新闻</string>
+    <string name="click_load">列表滑动到最后一条时[点击]加载更多新闻</string>
+    <string name="word_size_s">调整新闻正文文字大小，当前为：小</string>
+    <string name="word_size_m">调整新闻正文文字大小，当前为：中</string>
+    <string name="word_size_b">调整新闻正文文字大小，当前为：大</string>
+    <string name="word_size_xb">调整新闻正文文字大小，当前为：特大</string>
+    <string name="dialog_word_title">字号选择</string>
+    <string name="dialog_title">提示</string>
+    <string name="dialog_clean_finish">清理完成</string>
+    <string name="dialog_clean_success">腾讯新闻：缓存清理成功！</string>
+    <string name="dialog_clean_ing">腾讯新闻：正在清除缓存，请稍候…</string>
+    <string name="dialog_clean_noneed">当前不用清理</string>
+    <string name="dialog_clean_info">缓存文件可以用来帮您节省流量，但较大时会占用较多磁盘空间。\n确定开始清理吗?</string>
+    <string name="dialog_clean_start">开始</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="share_dialog_cancel">取　消</string>
+    <string name="share_dialog_offline_cancel">稍后再下</string>
+    <string name="dialog_are_you_sure_logout">您确定注销登录吗?</string>
+    <string name="dialog_logout_success">注销成功</string>
+
+    <!--
+    <string name="capital_on">开</string>
+    <string name="capital_off">关</string>
+    -->
+    <string name="img_txt_live">图文直播</string>
+    <string name="about">关于</string>
+    <string name="offline">离线阅读</string>
+    <string name="app_recomm">应用推荐</string>
+    <string name="setting_word_size">文字大小</string>
+    <string name="setting_word_size_desc">调整您想要的文字大小</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_clear_cache_desc">清除缓存的临时文件</string>
+    <string name="setting_app_info">软件信息</string>
+    <string name="setting_sugg">意见反馈</string>
+    <string name="logout">注销</string>
+    <string name="setting_set">系统设置</string>
+    <string name="setting_push">新闻推送</string>
+    <string name="setting_push_desc">开启或关闭新闻推送,当前状态:开启</string>
+    <string name="setting_autoload">自动加载</string>
+    <string name="setting_autoload_desc">列表滑动到最后一条时[自动]加载更多新闻</string>
+    <!-- night mode -->
+    <string name="theme_mode_title">日间模式</string>
+    <string name="night_theme_mode_title">夜间模式</string>
+    <!-- text mode -->
+    <string name="setting_photo_mode_title">图片模式</string>
+    <string name="setting_text_mode_title">文字模式</string>
+    <string name="setting_text_mode_title_extra">（省流量）</string>
+    <string name="setting_text_mode_desciption_open">开启文字模式，帮助节省流量，当前状态：开启</string>
+    <string name="setting_text_mode_desciption_close">开启文字模式，帮助节省流量，当前状态：关闭</string>
+    <!-- text mode -->
+    <string name="login_input_account">微博帐号/QQ帐号/邮箱地址</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_change_pic">看不清,换一张</string>
+    <string name="login_verification_code_image">验证码</string>
+    <string name="sure">确定</string>
+    <string name="title_special_news">腾讯专题</string>
+    <string name="writing_hint">说两句,转一下</string>
+    <string name="share_tx_weibo">同时转播到腾讯微博</string>
+    <string name="last">还剩</string>
+    <string name="how_many_words">字</string>
+    <string name="send">发表</string>
+    <string name="i_am_longly">沙发,很寂寞啊…</string>
+    <string name="clear_cache_ing">正在清除缓存</string>
+    <string name="sina_outh_title">新浪微博</string>
+    <string name="share_massage_submit_txt">发送</string>
+    <!-- check update -->
+    <string name="dialog_check_title">发现最新版本</string>
+    <string name="dialog_start_update">立即更新</string>
+    <string name="dialog_ignore_update">忽略更新</string>
+    <string name="dialog_newest_version">已经是最新版本</string>
+    <string name="setting_check_update_title">检查更新</string>
+    <string name="setting_check_update_title_new">更新版本</string>
+    <string name="setting_check_update_desc">有新版啦，快来更新吧！</string>
+
+    <!-- 设置  我的帐号 -->
+    <string name="my_account">帐号管理</string>
+    <string name="login_tencent_news">登录腾讯新闻</string>
+    <string name="logout_tencent_news">注销腾讯新闻</string>
+    <string name="are_you_sure_logout_tencent_news">您确定注销腾讯新闻吗？</string>
+    <string name="login_weixin">登录微信朋友圈</string>
+    <string name="logout_weixin">注销微信朋友圈</string>
+    <string name="are_you_sure_logout_weixin">您确定注销微信朋友圈吗？</string>
+    <string name="login_tencent_weibo">登录腾讯微博</string>
+    <string name="login_sina_weibo">登录新浪微博</string>
+    <string name="logout_sina_weibo">注销新浪微博</string>
+    <string name="are_you_sure_logout_sina_weibo">您确定注销新浪微博吗？</string>
+    <string name="not_login">未登录</string>
+    <string name="logged">已登录</string>
+    <string name="account_management">帐号管理</string>
+
+    <!-- 视频播放 -->
+    <string name="VideoView_error_title">视频问题</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">此视频无法有效分流到本设备.</string>
+    <string name="VideoView_error_text_unknown">对不起，该视频无法播放.</string>
+    <string name="VideoView_error_button">OK</string>
+    <!-- exit alert -->
+    <string name="keycode_back_alert_message">再按一次退出腾讯新闻</string>
+    <!-- test text -->
+    <string name="test_english">Test</string>
+    <string name="test_chinese">测试文字</string>
+    <string name="test_number">123456</string>
+
+    <!-- 复制成功tips -->
+    <string name="cppy_finished_message">已复制到粘贴板</string>
+
+    <!-- 自定义频道 -->
+    <string name="menu_setting_title">内容定制</string>
+    <string name="menu_setting_complete">完成</string>
+    <string name="menu_setting_nav_tips">长按并拖动标签可调整频道位置</string>
+    <string name="menu_setting_limit_tips">最少定制2个新闻频道</string>
+    <string name="menu_setting_more">更多</string>
+    <string name="menu_setting_more_tips">点击标签定制内容</string>
+    <string name="menu_setting_button_text">乌鲁木齐</string>
+    <string name="channel_on">更多频道</string>
+    <string name="channel_off">地方新闻</string>
+    <string name="place_holder"></string>
+
+    <!-- 应用包应用墙 -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">hello, world!</string>
+    <string name="qqappwall_unknown_app">未知应用</string>
+    <string name="qqappwall_ready_to_download">准备下载</string>
+    <string name="qqappwall_download_failed">下载失败</string>
+    <string name="qqappwall_download_failed_imply">下载失败</string>
+    <string name="qqappwall_download_finished">下载完成</string>
+    <string name="qqappwall_download_finished_imply">下载完成</string>
+    <string name="qqappwall_downloading">正在下载</string>
+    <string name="qqappwall_task_cancel">下载任务被取消</string>
+    <string name="qqappwall_task_exist">下载任务已经存在</string>
+
+    <!-- 图片底层页 -->
+    <string name="related_recommend">相关推荐</string>
+
+    <!-- 我的评论 -->
+    <string name="mycomment_title">我的评论</string>
+    <string name="mycomment_close_text">关闭</string>
+    <string name="mycomment_edit_text">编辑</string>
+
+    <!-- Beta 测试的相关文案 -->
+    <string name="betatesting_titlebar">(内测版)</string>
+    <string name="title_betatesting">内测版，仅供内部测试使用</string>
+    <string name="not_betatesting_user">抱歉，您不是腾讯新闻客户端内测用户！</string>
+    <string name="betatesting_time_exceeded">该内测版本安装包已超过使用期限，无法使用。请您下载正式安装包使用，谢谢您对腾讯新闻客户端的支持！</string>
+    <string name="betatesting_authuser_error">无法验证您是否为腾讯新闻内测版用户，请检查您的手机网络连接是否正常</string>
+
+    <!-- 图片底层页 -->
+    <string name="rss_search_input">搜索</string>
+    <string name="rss_search_cancel">取消</string>
+    <string name="title_activity_moble_qq">手机QQ</string>
+    <string name="license_agreement_title">许可协议</string>
+    <string name="tencent_news_license_agreement">软件许可协议</string>
+
+    <!-- 订阅 -->
+    <string name="add_rss_channel">我的订阅</string>
+    <string name="add_rss_channel_info">28万订阅</string>
+    <string name="add_rss_channel_complete">完成</string>
+    <string name="add_rss_channel_more">查看更多</string>
+    <string name="add_rss_channel_recommend">热门</string>
+    <string name="add_rss_login_tips">登录多终端同步内容</string>
+    <string name="add_rss_my_rss">15个订阅</string>
+    <string name="add_rss_back_btn">返回</string>    
+    <string name="rss_manage_title">订阅管理</string>
+    <string name="add_rss_last_tips">请至少保留一个，否则没得看了！</string>
+    <string name="rss_guide_title">订阅推荐</string>
+    <string name="rss_guide_start_read">开始阅读</string>
+    <string name="string_edit_rss_text">管理</string>
+
+    <!-- 收藏 -->
+    <string name="my_favorites_login">我的收藏(已登录)</string>
+    <string name="my_favorites_not_login">我的收藏(未登录)</string>
+    <string name="string_no_favorites__text">暂无收藏内容</string>
+    <string name="string_login_tips__text">登录账号 多终端同步收藏内容</string>
+    <string name="string_delete_favorites__text">删除</string>
+    <string name="string_edit_favorites__text">编辑</string>
+    <string name="string_cancel_favorites__text">取消</string>
+    <string name="string_close_favorites__text">关闭</string>
+    
+    <!-- 评论操作 Tips 提示信息 -->
+    <string name="up_ok">顶成功</string>
+    <string name="del_ok">删除成功</string>
+    <string name="del_failed">删除失败</string>
+    <string name="set_hot_ok">置顶成功</string>
+    <string name="set_hot_failed">置顶失败</string>
+	<string name="set_hot_limit">置顶失败！\n最多置顶20条</string>
+	<string name="set_normal_ok">取消置顶成功</string>
+    <string name="set_normal_failed">取消置顶失败</string>无法播放.</string>
+    <string name="VideoView_error_button">OK</string>
+    <!-- exit alert -->
+    <string name="keycode_back_alert_message">再按一次退出腾讯新闻</string>
+    <!-- test text -->
+    <string name="test_english">Test</string>
+    <string name="test_chinese">测试文字</string>
+    <string name="test_number">123456</string>
+
+    <!-- 复制成功tips -->
+    <string name="cppy_finished_message">已复制到粘贴板</string>
+
+    <!-- 自定义频道 -->
+    <string name="menu_setting_title">内容定制</string>
+    <string name="menu_setting_complete">完成</string>
+    <string name="menu_setting_nav_tips">长按并拖动标签可调整频道位置</string>
+    <string name="menu_setting_limit_tips">最少定制2个新闻频道</string>
+    <string name="menu_setting_more">更多</string>
+    <string name="menu_setting_more_tips">点击标签定制内容</string>
+    <string name="menu_setting_button_text">乌鲁木齐</string>
+    <string name="channel_on">更多频道</string>
+    <string name="channel_off">地方新闻</string>
+    <string name="place_holder"></string>
+
+    <!-- 应用包应用墙 -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">hello, world!</string>
+    <string name="qqappwall_unknown_app">未知应用</string>
+    <string name="qqappwall_ready_to_download">准备下载</string>
+    <string name="qqappwall_download_failed">下载失败</string>
+    <string name="qqappwall_download_failed_imply">下载失败</string>
+    <string name="qqappwall_download_finished">下载完成</string>
+    <string name="qqappwall_download_finished_imply">下载完成</string>
+    <string name="qqappwall_downloading">正在下载</string>
+    <string name="qqappwall_task_cancel">下载任务被取消</string>
+    <string name="qqappwall_task_exist">下载任务已经存在</string>
+
+    <!-- 图片底层页 -->
+    <string name="related_recommend">相关推荐</string>
+
+    <!-- 我的评论 -->
+    <string name="mycomment_title">我的评论</string>
+    <string name="mycomment_close_text">关闭</string>
+    <string name="mycomment_edit_text">编辑</string>
+
+    <!-- Beta 测试的相关文案 -->
+    <string name="betatesting_titlebar">(内测版)</string>
+    <string name="title_betatesting">内测版，仅供内部测试使用</string>
+    <string name="not_betatesting_user">抱歉，您不是腾讯新闻客户端内测用户！</string>
+    <string name="betatesting_time_exceeded">该内测版本安装包已超过使用期限，无法使用。请您下载正式安装包使用，谢谢您对腾讯新闻客户端的支持！</string>
+    <string name="betatesting_authuser_error">无法验证您是否为腾讯新闻内测版用户，请检查您的手机网络连接是否正常</string>
+
+    <!-- 图片底层页 -->
+    <string name="rss_search_input">搜索</string>
+    <string name="rss_search_cancel">取消</string>
+    <string name="title_activity_moble_qq">手机QQ</string>
+    <string name="license_agreement_title">许可协议</string>
+    <string name="tencent_news_license_agreement">软件许可协议</string>
+
+    <!-- 订阅 -->
+    <string name="add_rss_channel">我的订阅</string>
+    <string name="add_rss_channel_info">28万订阅</string>
+    <string name="add_rss_channel_complete">完成</string>
+    <string name="add_rss_channel_more">查看更多</string>
+    <string name="add_rss_channel_recommend">热门</string>
+    <string name="add_rss_login_tips">登录多终端同步内容</string>
+    <string name="add_rss_my_rss">15个订阅</string>
+    <string name="add_rss_back_btn">返回</string>    
+    <string name="rss_manage_title">订阅管理</string>
+    <string name="add_rss_last_tips">请至少保留一个，否则没得看了！</string>
+    <string name="rss_guide_title">订阅推荐</string>
+    <string name="rss_guide_start_read">开始阅读</string>
+    <string name="string_edit_rss_text">管理</string>
+
+    <!-- 收藏 -->
+    <string name="my_favorites_login">我的收藏(已登录)</string>
+    <string name="my_favorites_not_login">我的收藏(未登录)</string>
+    <string name="string_no_favorites__text">暂无收藏内容</string>
+    <string name="string_login_tips__text">登录账号 多终端同步收藏内容</string>
+    <string name="string_delete_favorites__text">删除</string>
+    <string name="string_edit_favorites__text">编辑</string>
+    <string name="string_cancel_favorites__text">取消</string>
+    <string name="string_close_favorites__text">关闭</string>
+    
+    <!-- 评论操作 Tips 提示信息 -->
+    <string name="up_ok">顶成功</string>
+    <string name="del_ok">删除成功</string>
+    <string name="del_failed">删除失败</string>
+    <string name="set_hot_ok">置顶成功</string>
+    <string name="set_hot_failed">置顶失败</string>
+	<string name="set_hot_limit">置顶失败！\n最多置顶20条</string>
+	<string name="set_normal_ok">取消置顶成功</string>
+    <string name="set_normal_failed">取消置顶失败</string>
+    
+    
+    <!-- 晒图 -->
+    <string name="photo_show">晒图</string>
+    <string name="forum">论坛</string>
+    <string name="transfer">交易</string>
+	<string name="setting">设置</string>
+</resources>

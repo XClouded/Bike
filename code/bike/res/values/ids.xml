@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 所有的id均定义在该文件夹中 -->
+    <item type="id" name="edittext_username"/>
+    <item type="id" name="edittext_passwd"/>
+    <item type="id" name="button_login"/>
+    <item type="id" name="button_register"/>
+    <item type="id" name="button_add"/>
+    <item type="id" name="view_pager"/>
+    <item type="id" name="photo_show"/>
+    <item type="id" name="forum" />
+    <item type="id" name="transfer"/>
+    <item type="id" name="setting"/>
+    <!-- 帖子分类列表 -->
+    <item type="id" name="post_category_list"/>
+    <!-- 帖子详情 -->
+    <item type="id" name="post_detail" />
+    <!-- 具体车系论坛 -->
+    <item type="id" name="forum_bike_category_list"></item>
+    <item type="id" name="close"/>
+</resources>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" 
+    android:background="@color/test_main_layout"
+    >
+
+    <!-- <LinearLayout 
+        android:id="@+id/test_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_layout_h"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <Button 
+	        android:id="@+id/personSetting"
+	        android:layout_weight="20"
+	        android:layout_height="@dimen/ps_h"
+	        android:text="@string/ps_btn"
+	        android:textSize="@dimen/ps_size"
+	        android:layout_marginLeft="@dimen/ps_l"/>
+        
+        <ImageView 
+            android:id="@+id/test_logo"
+            android:layout_width="@dimen/lg_wd"
+            android:layout_height="@dimen/lg_h"
+            android:src="@drawable/test_logo"/>
+        
+        
+    </LinearLayout> -->
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_layout_h"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        >
+        
+        <Button 
+	        android:id="@+id/personSetting"
+	        android:layout_width="@dimen/lg_wd"
+	        android:layout_height="@dimen/ps_h"
+	        android:text="@string/ps_btn"
+	        android:textSize="@dimen/ps_size"
+	        android:layout_marginLeft="@dimen/ps_l"
+	        />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_layout_h"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:id="@+id/test_logo"
+            android:layout_width="@dimen/lg_wd"
+            android:layout_height="@dimen/lg_h"
+            android:src="@drawable/test_logo"/>
+        
+        <TextView 
+            android:id="@+id/test_logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/lg_text_h"
+            android:text="@string/lg_text"
+            android:textSize="30sp"
+            android:gravity="center_vertical"/>
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_layout_h"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        >
+        
+        <Button 
+	        android:id="@+id/addXXX"
+	        android:layout_width="@dimen/add_wd"
+	        android:layout_height="@dimen/add_h"
+	        android:text="@string/add_btn"
+	        android:textSize="@dimen/add_size"
+	        android:layout_marginRight="@dimen/add_r"
+	        />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

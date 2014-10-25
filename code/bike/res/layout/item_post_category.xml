@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/more_tiny_mp"
+    android:paddingBottom="@dimen/more_tiny_mp"
+    android:paddingLeft="@dimen/normal_mp"
+    android:minHeight="@dimen/normal_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" 
+    android:background="@color/white">
+	
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/app_name"
+               android:background="@drawable/ic_launcher"/>
+    
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/tiny_mp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/forum_about_bike"
+                  android:textSize="@dimen/big_font_size"
+                  android:textColor="@color/black"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/more_tiny_mp"
+                  android:text="@string/forum_about_bike_desc"
+                  android:textSize="@dimen/tiny_font_size"
+                  android:textColor="@color/black"/>
+    </LinearLayout>
+    
+</LinearLayout>

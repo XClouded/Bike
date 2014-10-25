@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 测试activity -->
+    <!-- wd:width(宽度) , h : height(高度) , l : left(左) , r : right(右)-->
+    <dimen name="title_layout_h">80sp</dimen>
+    
+    <!-- 设置按钮 -->
+	<dimen name="ps_wd">80dp</dimen>
+	<dimen name="ps_h">50dp</dimen>
+	<dimen name="ps_size">20sp</dimen>
+	<dimen name="ps_l">10dp</dimen>
+	
+	<!-- logo -->
+	<dimen name="lg_wd">71.3dp</dimen>
+	<dimen name="lg_h">50dp</dimen>
+	<dimen name="lg_l">30dp</dimen>
+	
+	<!-- logo文字 -->
+	<dimen name="lg_text_h">50dp</dimen>
+	
+	<!-- '+'按钮 -->
+	<dimen name="add_wd">80dp</dimen>
+	<dimen name="add_h">50dp</dimen>
+	<dimen name="add_size">20sp</dimen>
+	<dimen name="add_r">10dp</dimen>
+	
+	<dimen name="normal_font_size">18sp</dimen>
+	<dimen name="tiny_font_size">16sp</dimen>
+	<dimen name="big_font_size">24sp</dimen>
+	<dimen name="titlebar_height">50dp</dimen>
+	
+	<dimen name="normal_mp">10dp</dimen>
+	<dimen name="tiny_mp">5dp</dimen>
+	<dimen name="divider_line_height">1dp</dimen>
+	<dimen name="normal_height">50dp</dimen>
+	<dimen name="more_tiny_mp">3dp</dimen>
+
+</resources>
